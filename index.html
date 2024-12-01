@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinoarea - онлайн кинотеатр</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./font/stylesheet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="background">
+        <header class="container flexbox">
+            <div class="header-logo">
+                <img src="./img/svg/logo.svg" alt="">
+                <img src="./img/svg/   .svg" alt="">
+            </div>
+            <div class="header-menu">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">Афиша</a>
+                        </li>
+                        <li>
+                            <a href="#">Медиа</a>
+                        </li>
+                        <li>
+                            <a href="#">Фильмы</a>
+                        </li>
+                        <li>
+                            <a href="#">Актёры</a>
+                        </li>
+                        <li>
+                            <a href="#">Новости</a>
+                        </li>
+                        <li>
+                            <a href="#">Подборки</a>
+                        </li>
+                        <li>
+                            <a href="#">Категории</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-auth">
+                <search>
+                    <button class="header-search">
+                        <img src="./img/svg/search.svg" alt="">
+                    </button>
+                </search>
+                <a href="#" class="header-login">Войти</a>
+            </div>
+        </header>
+        <main class="container">
+            <section class="now-kino">
+                <div class="now-kino-header flexbox">
+                    <h1 class="title">Сейчас в кино</h1>
+                    <hr>
+                    <div class="header-nav flexbox">
+                        <a class="focus" href="">Все</a>
+                        <a href="">Боевики</a>
+                        <a href="">Приключения</a>
+                        <a href="">Комедии</a>
+                        <a href="">Фантастика</a>
+                        <a href="">Триллеры</a>
+                        <a href="">Драма</a>
+                    </div>
+                </div>
+                <div class="now-kino-main">
+                    <div class="kart-row-1 flexbox">
+                        <div class="kart">
+                            <div class="rating">
+                                <p>6.70</p>
+                            </div>
+                            <img src="./img/png/image 1.png" alt="">
+                            <div class="kart-of-film">
+                                <p>Карточка фильма</p>
+                            </div>
+                            <p class="film-name">Побег из Претории</p>
+                            <p class="film-genre">Триллер</p>
+                        </div>
+                        <div class="kart">
+                            <div class="rating">
+                                <p>8.50</p>
+                            </div>
+                            <img src="./img/png/image 2.png" alt="">
+                            <div class="kart-of-film">
+                                <p>Карточка фильма</p>
+                            </div>
+                            <p class="film-name">Джокер</p>
+                            <p class="film-genre">Триллер, драма, криминал</p>
+                        </div>
+                        <div class="kart">
+                            <div class="rating">
+                                <p>6.70</p>
+                            </div>
+                            <img src="./img/png/image 3.png" alt="">
+                            <div class="kart-of-film">
+                                <p>Карточка фильма</p>
+                            </div>
+                            <p class="film-name">Звёздные войны: Скайуокер. Восход</p>
+                            <p class="film-genre">Фантастика, фэнтези, боевик, приключения</p>
+                        </div>
+                        <div class="kart">
+                            <div class="rating">
+                                <p>8.00</p>
+                            </div>
+                            <img src="./img/png/image 4.png" alt="">
+                            <div class="kart-of-film">
+                                <p>Карточка фильма</p>
+                            </div>
+                            <p class="film-name">Джентльмены</p>
+                            <p class="film-genre">Боевик, комедия, криминал</p>
+                        </div>
+                    </div>
+                    <div class="kart-row-2 flexbox">
+                        <div class="kart">
+                            <div class="rating">
+                                <p>8.10</p>
+                            </div>
+                            <img src="./img/png/image 8.png" alt="">
+                            <div class="kart-of-film">
+                                <p>Карточка фильма</p>
+                            </div>
+                            <p class="film-name">Ford против Ferrari</p>
+                            <p class="film-genre">Биография, спорт, драма, боевик</p>
+                        </div>
+                        <div class="kart">
+                            <div class="rating">
+                                <p>4.90</p>
+                            </div>
+                            <img src="./img/png/image 7.png" alt="">
+                            <div class="kart-of-film">
+                                <p>Карточка фильма</p>
+                            </div>
+                            <p class="film-name">3022</p>
+                            <p class="film-genre">Фантастика, триллер</p>
+                        </div>
+                        <div class="kart">
+                            <div class="rating">
+                                <p>6.20</p>
+                            </div>
+                            <img src="./img/png/image 6.png" alt="">
+                            <div class="kart-of-film">
+                                <p>Карточка фильма</p>
+                            </div>
+                            <p class="film-name">Хищные птицы: Потрясающая история <br> </p>
+                            <p class="film-genre">Боевик, криминал, комедия</p>
+                        </div>
+                        <div class="kart">
+                            <div class="rating">
+                                <p>6.90</p>
+                            </div>
+                            <img src="./img/png/image 5.png" alt="">
+                            <div class="kart-of-film">
+                                <p>Карточка фильма</p>
+                            </div>
+                            <p class="film-name">Плохие парни навсегда</p>
+                            <p class="film-genre">Боевик, комедия, криминал</p>
+                        </div>
+                    </div>
+                    <div class="kart-row-1 flexbox">
+                        <div class="kart">
+                            <div class="rating">
+                                <p>6.70</p>
+                            </div>
+                            <img src="./img/png/image 1.png" alt="">
+                            <div class="kart-of-film">
+                                <p>Карточка фильма</p>
+                            </div>
+                            <p class="film-name">Побег из Претории</p>
+                            <p class="film-genre">Триллер</p>
+                        </div>
+                        <div class="kart">
+                            <div class="rating">
+                                <p>8.50</p>
+                            </div>
+                            <img src="./img/png/image 2.png" alt="">
+                            <div class="kart-of-film">
+                                <p>Карточка фильма</p>
+                            </div>
+                            <p class="film-name">Джокер</p>
+                            <p class="film-genre">Триллер, драма, криминал</p>
+                        </div>
+                        <div class="kart">
+                            <div class="rating">
+                                <p>6.70</p>
+                            </div>
+                            <img src="./img/png/image 3.png" alt="">
+                            <div class="kart-of-film">
+                                <p>Карточка фильма</p>
+                            </div>
+                            <p class="film-name">Звёздные войны: Скайуокер. Восход</p>
+                            <p class="film-genre">Фантастика, фэнтези, боевик, приключения</p>
+                        </div>
+                        <div class="kart">
+                            <div class="rating">
+                                <p>8.00</p>
+                            </div>
+                            <img src="./img/png/image 4.png" alt="">
+                            <div class="kart-of-film">
+                                <p>Карточка фильма</p>
+                            </div>
+                            <p class="film-name">Джентльмены</p>
+                            <p class="film-genre">Боевик, комедия, криминал</p>
+                        </div>
+                    </div>
+                    <div class="kart-row-2 flexbox">
+                        <div class="kart">
+                            <div class="rating">
+                                <p>8.10</p>
+                            </div>
+                            <img src="./img/png/image 8.png" alt="">
+                            <div class="kart-of-film">
+                                <p>Карточка фильма</p>
+                            </div>
+                            <p class="film-name">Ford против Ferrari</p>
+                            <p class="film-genre">Биография, спорт, драма, боевик</p>
+                        </div>
+                        <div class="kart">
+                            <div class="rating">
+                                <p>4.90</p>
+                            </div>
+                            <img src="./img/png/image 7.png" alt="">
+                            <div class="kart-of-film">
+                                <p>Карточка фильма</p>
+                            </div>
+                            <p class="film-name">3022</p>
+                            <p class="film-genre">Фантастика, триллер</p>
+                        </div>
+                        <div class="kart">
+                            <div class="rating">
+                                <p>6.20</p>
+                            </div>
+                            <img src="./img/png/image 6.png" alt="">
+                            <div class="kart-of-film">
+                                <p>Карточка фильма</p>
+                            </div>
+                            <p class="film-name">Хищные птицы: Потрясающая история <br> </p>
+                            <p class="film-genre">Боевик, криминал, комедия</p>
+                        </div>
+                        <div class="kart">
+                            <div class="rating">
+                                <p>6.90</p>
+                            </div>
+                            <img src="./img/png/image 5.png" alt="">
+                            <div class="kart-of-film">
+                                <p>Карточка фильма</p>
+                            </div>
+                            <p class="film-name">Плохие парни навсегда</p>
+                            <p class="film-genre">Боевик, комедия, криминал</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="now-kino-footer">
+                    <button id="button">Все новинки</button>
+                </div>
+            </section>
+            <section class="new-trailers">
+                <div class="new-trailers-header flexbox">
+                    <h2 class="title">Новые трейлеры</h2>
+                    <div class="all-trailers">
+                        <a class="all-trailers-link" href="">Все трейлеры</a>
+                        <a href="">
+                            <img src="./img/svg/Arrow 1.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="new-trailers-main">
+                    <iframe class="video" width="1430" height="765" src="https://dzen.ru/embed/v_jPNWGQb0yo?from_block=partner&from=zen&mute=0&autoplay=0&tv=0" allow="autoplay; fullscreen; accelerometer; gyroscope; picture-in-picture; encrypted-media" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                        <!-- <a class="play-button" href="">
+                        <img src="./img/svg/Polygon 2.svg" alt="">
+                    </a> -->
+                    <div class="raznoe-about-film">
+                        <div class="name-and-share">
+                            <h2>Форсаж 9</h2>
+                            <img src="./img/svg/Поделиться.svg" alt="">
+                        </div>
+                        <div class="likes-and-dislikes flexbox">
+                            <div id="likes" class="likes">
+                                <div class="like-img">
+                                    <img id="likeimg" src="./img/svg/like.svg" alt="">
+                                </div>
+                                <p id="likescounter">3245</p>
+                            </div>
+                            <div id="dislikes" class="dislikes">
+                                <div class="dislike-img">
+                                    <img id="dislikeimg" src="./img/svg/dislike.svg" alt="">
+                                </div>
+                                <p id="dislikescounter">420</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="new-trailers-footer">
+                    <!-- Slider main container -->
+                    <div class="swiper">
+                        <div class="swiper-scrollbar"></div>
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="kartochka">
+                                    <img src="./img/png/image 4 (1).png" alt="">
+                                    <p class="film-name">Мулан</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="kartochka">
+                                    <img src="./img/png/image 4 (2).png" alt="">
+                                    <p class="film-name">Форсаж 9</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="kartochka">
+                                    <img src="./img/png/image 4 (3).png" alt="">
+                                    <p class="film-name">Чёрная Вдова</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="kartochka">
+                                    <img src="./img/png/image 4 (4).png" alt="">
+                                    <p class="film-name">Тихое место 2</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="kartochka">
+                                    <img src="./img/png/image 4 (1).png" alt="">
+                                    <p class="film-name">Мулан</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="kartochka">
+                                    <img src="./img/png/image 4 (2).png" alt="">
+                                    <p class="film-name">Форсаж 9</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="kartochka">
+                                    <img src="./img/png/image 4 (3).png" alt="">
+                                    <p class="film-name">Чёрная Вдова</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="kartochka">
+                                    <img src="./img/png/image 4 (4).png" alt="">
+                                    <p class="film-name">Тихое место 2</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- <div class="kart-row flexbox">
+                        <div class="kartochka">
+                            <img src="./img/png/image 4 (1).png" alt="">
+                            <p class="film-name">Мулан</p>
+                        </div>
+                        <div class="kartochka">
+                            <img src="./img/png/image 4 (2).png" alt="">
+                            <p class="film-name">Форсаж 9</p>
+                        </div>
+                        <div class="kartochka">
+                            <img src="./img/png/image 4 (3).png" alt="">
+                            <p class="film-name">Чёрная Вдова</p>
+                        </div>
+                        <div class="kartochka">
+                            <img src="./img/png/image 4 (4).png" alt="">
+                            <p class="film-name">Тихое место 2</p>
+                        </div>
+                    </div> -->
+                </div>
+            </section>
+            <section class="popular-films">
+                <div class="popular-films-header flexbox">
+                    <h2 class="title">Популярные фильмы</h2>
+                    <hr>
+                    <div class="header-nav flexbox unique-styles1">
+                        <a href="">Всё время</a>
+                        <a href="">2020</a>
+                        <a class="focus" href="">2019</a>
+                        <a href="">2018</a>
+                        <a href="">2017</a>
+                        <a href="">2016</a>
+                        <a href="">2015</a>
+                    </div>
+                </div>
+                <div class="popular-films-main flexbox">
+                    <div class="kart">
+                        <div class="rating">
+                            <p>8.50</p>
+                        </div>
+                        <img src="./img/png/image 2.png" alt="">
+                        <div class="kart-of-film">
+                            <p>Карточка фильма</p>
+                        </div>
+                        <p class="film-name">Джокер</p>
+                        <p class="film-genre">Триллер, драма, криминал</p>
+                    </div>
+                    <div class="kart">
+                        <div class="rating">
+                            <p>7.80</p>
+                        </div>
+                        <img src="./img/png/image 2 (1).png" alt="">
+                        <div class="kart-of-film">
+                            <p>Карточка фильма</p>
+                        </div>
+                        <p class="film-name">История игрушек 4</p>
+                        <p class="film-genre">Мультфильм, фэнтези, комедия, приключения ...</p>
+                    </div>
+                    <div class="kart">
+                        <div class="rating">
+                            <p>7.70</p>
+                        </div>
+                        <img src="./img/png/image 1 (1).png" alt="">
+                        <div class="kart-of-film">
+                            <p>Карточка фильма</p>
+                        </div>
+                        <p class="film-name">Однажды в… Голливуде</p>
+                        <p class="film-genre">Драма, комедия</p>
+                    </div>
+                    <div class="kart">
+                        <div class="rating">
+                            <p>7.10</p>
+                        </div>
+                        <img src="./img/png/image 2 (2).png" alt="">
+                        <div class="kart-of-film">
+                            <p>Карточка фильма</p>
+                        </div>
+                        <p class="film-name">Солнцестояние</p>
+                        <p class="film-genre">Ужасы, триллер, драма</p>
+                    </div>
+                </div>
+                <div class="popular-films-footer">
+                    <img src="./img/svg/Слайдер.svg" alt="">
+                </div>
+            </section>
+            <section class="popular-ludi">
+                <div class="popular-ludi-header flexbox">
+                    <h1 class="title">Популярные персоны</h1>
+                    <div class="header-nav flexbox unique-styles2">
+                        <a href="">За год</a>
+                        <a href="">За месяц</a>
+                        <a class="focus" href="">За неделю</a>
+                    </div>
+                </div>
+                <div class="popular-ludi-main flexbox">
+                    <div class="kart3">
+                        <img src="./img/png/image 26.png" alt="">
+                        <div class="all-person-info">
+                            <div class="place">
+                                <p>1-е место</p>
+                            </div>
+                            <div class="person-info">
+                                <p class="name-person">Квентин Тарантино</p>
+                                <p class="translit-name-person">Quentin Tarantino</p>
+                                <p class="age">57 лет</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="kart3">
+                        <img src="./img/png/image 26 (1).png" alt="">
+                        <div class="all-person-info">
+                            <div class="place">
+                                <p>2-е место</p>
+                            </div>
+                            <div class="person-info">
+                                <p class="name-person">Джейсон Стейтем</p>
+                                <p class="translit-name-person">Jason Statham</p>
+                                <p class="age">52 года</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <img src="./img/svg/Список.svg" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="latest-news">
+                <div class="latest-news-header flexbox">
+                    <h2>Последние новости</h2>
+                    <a class="flexbox" href="">Все новости
+                        <img src="./img/svg/Arrow 1.svg" alt="">
+                    </a>
+                </div>
+                <div class="latest-news-main flexbox">
+                    <div class="kart-big1">
+                        <img class="big-img" src="./img/png/image 13 (1).png" alt="">
+                        <div class="info">
+                            <div class="counters-and-date">
+                                <div class="date">
+                                    <p>15 Апр 2020</p>
+                                </div>
+                                <div class="views-counter">
+                                    <img class="eye-img" src="./img/svg/eye 2.svg" alt="">
+                                    <p>242</p>
+                                </div>
+                                <div class="comments-counter">
+                                    <img class="comment-img" src="./img/svg/comment.svg" alt="">
+                                    <p>14</p>
+                                </div>
+                            </div>
+                            <div class="name-and-desc-big">
+                                <h2>Не время умирать. Перенос релиза фильма</h2>
+                                <p>Но действия представителей оппозиции в равной степени предоставлены сами себе. В
+                                    рамках спецификации современных стандартов, стремящиеся вытеснить традиционное
+                                    производство, нанотехнологии указаны как претенденты на роль ключевых факторов.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="all-kart-small">
+                        <div class="kart-small1 kart-small">
+                            <img src="./img/png/image 13 (2).png" alt="">
+                            <div class="info2">
+                                <div class="counters-and-date-small">
+                                    <p>15 Апр 2020</p>
+                                </div>
+                                <div class="name-and-desc">
+                                    <p>Как изменили Соника с последнего анонса</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kart-small2 kart-small">
+                            <img src="./img/png/image 13 (1).png" alt="">
+                            <button>Читать новость</button>
+                            <div class="info2">
+                                <div class="counters-and-date-small">
+                                    <p>15 Апр 2020</p>
+                                </div>
+                                <div class="name-and-desc">
+                                    <p>Не время умирать. Перенос релиза фильма</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kart-small3 kart-small">
+                            <img src="./img/png/image 13 (3).png" alt="">
+                            <div class="info2">
+                                <div class="counters-and-date-small">
+                                    <p>15 Апр 2020</p>
+                                </div>
+                                <div class="name-and-desc">
+                                    <p>От этой новости вы будете
+                                        шокированы до завтра</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kart-small4 kart-small">
+                            <img src="./img/png/image 13 (4).png" alt="">
+                            <div class="info2">
+                                <div class="counters-and-date-small">
+                                    <p>13 Апр 2020</p>
+                                </div>
+                                <div class="name-and-desc">
+                                    <p>Вот это, конечно, да!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="wanting-innovations-header flexbox">
+                <h2 class="title">Ожидаемые новинки</h2>
+                <img src="./img/svg/Слайдер 2.svg" alt="">
+            </div>
+            <div class="wainting-innovations-main flexbox">
+                <div class="kart4">
+                    <img src="./img/png/image 1.png" alt="">
+                    <div class="kart-of-film">
+                        <p>Карточка фильма</p>
+                    </div>
+                    <p class="film-name">Побег из Претории</p>
+                    <p class="film-genre">14 мая 2020 в России</p>
+                </div>
+                <div class="kart4">
+                    <img src="./img/png/image 1 (26).png" alt="">
+                    <div class="kart-of-film">
+                        <p>Карточка фильма</p>
+                    </div>
+                    <p class="film-name">Прощай</p>
+                    <p class="film-genre">14 мая 2020 в России</p>
+                </div>
+                <div class="kart4">
+                    <img src="./img/png/image 1 (25).png" alt="">
+                    <div class="kart-of-film">
+                        <p>Карточка фильма</p>
+                    </div>
+                    <p class="film-name">Дружить по-русски!</p>
+                    <p class="film-genre">21 мая 2020 в России</p>
+                </div>
+                <div class="kart4">
+                    <img src="./img/png/image 1 (24).png" alt="">
+                    <div class="kart-of-film">
+                        <p>Карточка фильма</p>
+                    </div>
+                    <p class="film-name">Приди ко мне</p>
+                    <p class="film-genre">21 мая 2020 в России</p>
+                </div>
+            </div>
+            <div class="kass-sbory-header">
+                <h2 class="title">Кассовые сборы</h2>
+                <p>13 марта - 15 марта</p>
+                <hr>
+                <div class="header-nav flexbox unique-styles3">
+                    <a href="">Россия</a>
+                    <a class="focus" href="">Весь мир</a>
+                    <a href="">США и Канада</a>
+                </div>
+            </div>
+            <div class="kass-sbory-main flexbox">
+                <div class="kart5">
+                    <img src="./img/png/Rectangle 1004 (4).png" alt="">
+                    <div class="kart5-film-info">
+                        <p class="film-name2">1. Бладшот</p>
+                        <p class="film-summa-sbora">$13 млн</p>
+                        <p class="film-summa-sbora-for-time">$15.1 млн за 4 недели</p>
+                    </div>
+                </div>
+                <div class="kart5">
+                    <img src="./img/png/Rectangle 1004 (3).png" alt="">
+                    <div class="kart5-film-info">
+                        <p class="film-name2">2. Вперёд</p>
+                        <p class="film-summa-sbora">$6.8 млн</p>
+                        <p class="film-summa-sbora-for-time">$41.4 млн за 4 недели</p>
+                    </div>
+                </div>
+                <div class="kart5">
+                    <img src="./img/png/Rectangle 1004 (2).png" alt="">
+                    <div class="kart5-film-info">
+                        <p class="film-name2">3. Человек-невидимка</p>
+                        <p class="film-summa-sbora">$6.2 млн</p>
+                        <p class="film-summa-sbora-for-time">$58.3 млн за 3 недели</p>
+                    </div>
+                </div>
+                <div class="kart5">
+                    <img src="./img/png/Rectangle 1004 (1).png" alt="">
+                    <div class="kart5-film-info">
+                        <p class="film-name2">4. Соник в кино</p>
+                        <p class="film-summa-sbora">$2.9 млн</p>
+                        <p class="film-summa-sbora-for-time">$15.1 млн за 4 недели</p>
+                    </div>
+                </div>
+                <div class="kart5">
+                    <img src="./img/png/image 4.png" alt="">
+                    <div class="kart5-film-info">
+                        <p class="film-name2">5. Джентельмены</p>
+                        <p class="film-summa-sbora">$1.8 млн</p>
+                        <p class="film-summa-sbora-for-time">$78.7 млн за 11 недель</p>
+                    </div>
+                </div>
+            </div>
+            <div class="subscribe">
+                <img src="./img/svg/Логотип.svg" alt="">
+                <h2>Подпишитесь на E-mail рассылку</h2>
+                <p>Если хотите быть в курсе последних новостей и новинок кино - заполните форму ниже и оформите
+                    бесплатную E-mail рассылку! </p>
+                <div class="idontknow">
+                    <input placeholder="Введите свой E-mail адрес" type="email">
+                    <input value="Подписаться" type="submit">
+                </div>
+                <div class="privacy-policy">
+                    <input type="checkbox">
+                    <p>Соглашаюсь на условия <a class="privacy-policy-link" href="">политики конфиденциальности</a></p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer-socials">
+                    <img src="./img/svg/Соц. сети.svg" alt="">
+                </div>
+                <div class="footer-links">
+                    <a href="">Афиша</a>
+                    <a href="">Новости</a>
+                    <a href="">Персоны</a>
+                    <a href="">Рейтинги</a>
+                    <a href="">Рецензии</a>
+                    <a class="latest-link" href="">Каталог фильмов</a>
+                </div>
+                <div class="other-info">
+                    <p>2020 © Kinoarea. Все права защищены</p>
+                    <a href="">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./swiper.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
